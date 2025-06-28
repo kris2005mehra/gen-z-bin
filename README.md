@@ -1,18 +1,18 @@
-♻️ GenZ Bin – Smart Waste Classification
+# ♻️ GenZ Bin – Smart Waste Classification
 
 A modern, AI-powered web for classifying waste using machine learning and image recognition.
 Built using React + Tailwind CSS + Lucide Icons
 
 ---
 
-🧠 Overview
+# 🧠 Overview
 
 GenZ Bin is a smart web-based waste classifier that helps users identify and categorize different types of waste using a trained machine learning model. The system offers both camera capture and image upload functionalities, and provides confidence scores for predictions in real time.
 
 
 ---
 
-Features 🎯 
+# 🎯 Features
 
 ✅ Real-time waste classification using Firebase-deployed ML model
 
@@ -29,7 +29,7 @@ Features 🎯
 
 ---
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Layer	Technology
 
@@ -46,7 +46,7 @@ Others	Hooks, Ref-based image processing, Lazy model loading
 
 ---
 
-🔍 Waste Types Supported
+# 🔍 Waste Types Supported
 
 Type	Example
 
@@ -63,7 +63,7 @@ Each class is associated with a visual reference for learning and validation.
 
 ---
 
-🚀 Getting Started
+# 🚀 Getting Started
 
 1. Clone & Install
 
@@ -80,7 +80,7 @@ Open in browser: [http://localhost:3000](http://localhost:5173/)
 
 ---
 
-🧠 ML Model
+# 🧠 ML Model
 
 Architecture: CNN with ~85%+ accuracy
 
@@ -98,7 +98,7 @@ You can improve model performance by collecting user feedback and retraining reg
 
 ---
 
-📸 Demo Screenshots
+# 📸 Demo Screenshots
 
 <img width="1440" alt="Screenshot 2025-06-29 at 3 36 16 AM" src="https://github.com/user-attachments/assets/49aa5013-fa85-451c-a057-fc4fb7e94ce2" />
 <img width="1440" alt="Screenshot 2025-06-29 at 3 36 39 AM" src="https://github.com/user-attachments/assets/67cc52a8-c9ef-4946-a542-4c550545b420" />
@@ -113,7 +113,7 @@ You can improve model performance by collecting user feedback and retraining reg
 
 ---
 
-💡 Future Plans
+#💡 Future Plans
 
 🔁 Feedback-based model improvement
 
@@ -128,7 +128,7 @@ You can improve model performance by collecting user feedback and retraining reg
 
 ---
 
-⭐ Support & Contribute
+# ⭐ Support & Contribute
 
 If you found this helpful, please ⭐ star the repo
 Feel free to fork, contribute, or raise issues
@@ -136,6 +136,6 @@ Feel free to fork, contribute, or raise issues
 
 ---
 
-📜 License
+# 📜 License
 
 This project is open source under the MIT License.

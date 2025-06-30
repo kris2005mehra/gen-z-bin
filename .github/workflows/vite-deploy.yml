@@ -3,7 +3,7 @@ name: Deploy Vite App to GitHub Pages
 on:
   push:
     branches:
-      - master  # or your default branch
+      - master  # ✅ change from 'main' to 'master'
 
 permissions:
   contents: write
@@ -11,11 +11,12 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: 📥 Checkout repository
+      - name: 📥 Checkout code
         uses: actions/checkout@v3
 
-      - name: 🟢 Setup Node.js
+      - name: 🧱 Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -23,7 +24,7 @@ jobs:
       - name: 📦 Install dependencies
         run: npm ci
 
-      - name: 🛠️ Build Vite project
+      - name: 🏗️ Build Vite app
         run: npm run build
 
       - name: 🚀 Deploy to GitHub Pages
@@ -31,3 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages  # ✅ this ensures the gh-pages branch is created

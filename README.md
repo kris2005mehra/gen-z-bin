@@ -71,6 +71,8 @@ npm install
 
 2. Run the App:- npm run dev
 
+3. Deployed Project Link:- https://kris2005mehra.github.io/gen-z-bin/
+
 
 
 ---

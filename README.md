@@ -65,15 +65,11 @@ Each class is associated with a visual reference for learning and validation.
 
 # 🚀 Getting Started
 
-1. Clone & Install
-
-git clone https://github.com/your-username/genz-bin.git
+1. Clone & Install:- git clone https://github.com/your-username/genz-bin.git
 cd genz-bin
 npm install
 
-2. Run the App
-
-npm run dev
+2. Run the App:- npm run dev
 
 
 
@@ -112,7 +108,7 @@ You can improve model performance by collecting user feedback and retraining reg
 
 ---
 
-#💡 Future Plans
+# 💡 Future Plans
 
 🔁 Feedback-based model improvement
 

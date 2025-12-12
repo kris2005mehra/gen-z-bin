@@ -42,7 +42,7 @@ def create_model():
 
 def main():
     # Load and preprocess dataset
-    dataset_path = "C:\Users\Reliance Digital\Desktop\Wastes_Dataset\images\images\aerosol_cans\default"  # Update with actual path
+    dataset_path = "C:\Users\Reliance Digital\Desktop\Wastes_Dataset\images\images\aerosol_cans\default"
     train_ds = tf.keras.utils.image_dataset_from_directory(
         dataset_path,
         validation_split=0.2,
